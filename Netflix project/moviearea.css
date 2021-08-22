@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    margin: 5px;
+}
+
+.head img{
+    position: relative;
+    width: 11%;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: -14px;
+}
+
+.home-img{
+    background-image: url(assets/moneyheist.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+}
+
+.home-img-txt{
+    color: aliceblue;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+
+.home-img-txt p{
+    font-size: 1.3em;
+}
+
+.money{
+    width: 100%;
+    height: auto;
+}
+
+.play-button{
+    background-color: #E50914;
+    color: black;
+    border-radius: 4px;
+    width: 70px;
+    padding: 5px 20px 4px;
+    font-size: 25px;
+}
+
+.play-button img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 25px;
+    position: absolute;
+}
+
+.play-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.original{
+    color: aliceblue;
+    padding-left: 0px;
+}
+
+.original h3{
+    margin-top: 10px;
+}
+
+.original .no-title{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-bottom: 15px;
+    
+
+}
+
+.original .no{
+    display: flex;
+    padding-top: 2px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    overflow-y: hidden;
+    margin: 5px;
+
+}
+
+.original .no img{
+    margin: 4px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.original .no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+
+
+
+.top-rated1{
+    color: aliceblue;
+    padding-left: 0px;
+}
+
+.top-rated1 h3{
+    margin-top: 10px;
+}
+
+.top-rated1 .no-title{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-bottom: 15px;
+
+}
+
+.top-rated1 .no{
+    display: flex;
+    padding-top: 2px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    overflow-y: hidden;
+    margin: 5px;
+    height: 33vh;
+}
+
+.top-rated1 .no img{
+    margin: 4px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.top-rated1 .no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+
+
+
+
+html{
+    overflow:scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 2px;
+    background: transparent;
+}
+
